@@ -16,8 +16,8 @@ class Messages(commands.Cog):
             return
     
         embed = Embed(
-            description=f'Message ID : {message.id}',
             color=Color.red(),
+            description=f'Message ID : {message.id}',
             timestamp=datetime.now()
         )
     
