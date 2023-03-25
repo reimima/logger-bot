@@ -1,0 +1,13 @@
+{
+  "name": "logging-bot",
+  "version": "1.0.0",
+  "main": "main.py",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec py -3 main.py",
+    "start": "py -3 main.py"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
